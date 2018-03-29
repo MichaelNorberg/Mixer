@@ -1,0 +1,118 @@
+.navStyle {
+  background-Color: #01008e;
+}
+.navLinkStyle {
+  color: #ff0178;
+  font-family: 'Monoton';
+  text-shadow: 2.7px 2.7px 14.9px #ff0178, 0px 0px 2.7px #ff1b86;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+input[type=range]::-webkit-slider-thumb {
+  background-color: #00003f;
+}
+input[type=range]::-moz-range-thumb {
+  background-color: #00003f;
+}
+input[type=range]::-ms-thumb {
+  background-color: #00003f;
+}
+input[type=range] + .thumb {
+  background-color: #00003f;
+}
+input[type=range] + .thumb.active .value {
+  color: #fe00ea;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  height: 7.6px;
+  background-color: #fe00ea;
+  box-shadow: 5.4px 5.4px 11.9px #ff0178, 0px 0px 5.4px #ff1b86;
+  background: #fe00ea;
+  border-radius: 25px;
+  border: 1.5px solid #00003f;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #ff04eb;
+}
+h2 {
+  text-align: center;
+  color: #ff0178;
+  font-family: 'Monoton';
+  text-shadow: 2.7px 2.7px 14.9px #ff0178, 0px 0px 2.7px #ff1b86;
+}
+h3 {
+  font-size: 1rem;
+  color: #ff0178;
+  font-family: 'Monoton';
+  text-shadow: 2.7px 2.7px 14.9px #ff0178, 0px 0px 2.7px #ff1b86;
+}
+ .cardStyle {
+  background-color: #01008e;
+  box-shadow: 7.6px 7.6px 15px #ff0178, 0px 0px 7.6px #ff1b86;
+}
+label {
+  color: #ff0178;
+  font-Family: 'Permanent Marker';
+}
+footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #01008e;
+}
+.masterStyle {
+  height: 100vh;
+  background-color: #00003f;
+  margin-bottom: 40%;
+}
+.transport {
+  margin: 0.5%;
+  background-color: #ff0178;
+}
+.buttonStyle {
+  font-family: 'Monoton';
+  margin-right: 2%;
+  background-color: #ff0178;
+}
+.buttonHover:hover {
+  background-color: #00003f;
+}
+.channelStyle {
+  margin-bottom: 40%;
+}
+.labelNameStyle {
+  display: block;
+}
+.minStyle {
+  text-align: left;
+}
+.maxStyle {
+  float: right;
+}
+.active {
+  color: white;
+  font-family: 'Monoton';
+  text-shadow: 2.7px 2.7px 14.9px #ff1515, 0px 0px 2.7px #ff1515;
+}
+.channelVU {
+  margin: 0 auto;
+  display: block;
+}
+#VUCard{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 400px;
+}
+.vuHeader {
+  width: 100%;
+}
+.canvas-wrapper{
+  width: 30%;
+  position: relative;
+}
